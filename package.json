@@ -1,0 +1,37 @@
+{
+  "name": "ali-os",
+  "version": "0.0.1",
+  "description": "An Aliyun open search API helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp && echo '-----' &&mocha ./test/*-test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobbubu/ali-os.git"
+  },
+  "keywords": [
+    "aliyun",
+    "open",
+    "search",
+    "coffeescript"
+  ],
+  "author": "Rong Shen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobbubu/ali-os/issues"
+  },
+  "homepage": "https://github.com/jacobbubu/ali-os",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-util": "^3.0.4",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  },
+  "dependencies": {
+    "jsonist": "git+https://github.com/jacobbubu/jsonist.git"
+  }
+}
